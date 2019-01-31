@@ -105,6 +105,8 @@ We are going to create a Jenkinsfile to build and deploy our `nationalparks` app
 
 Create a file called `Jenkinsfile.workshop` with the following content:
 
+CAUTION: In the following file(s), replace `{{ USER_NAME }}` with the Git username provided to you.
+
 [source,shell,role=copypaste]
 ----
 pipeline {
@@ -190,6 +192,8 @@ that uses the `Jenkinsfile.workshop` from the `{{USER_NAME}}` git repository
 image::devops-pipeline-add-yaml-menu.png[Add yaml to project - Menu]
 
 Now, copy the following code into the yaml input box and click `create`.
+
+CAUTION: In the following file(s), replace `{{ USER_NAME }}` with the Git username provided to you.
 
 [source,shell,role=copypaste]
 ----
